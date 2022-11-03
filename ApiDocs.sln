@@ -1,8 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{43125ED7-E6F6-47BD-B6C9-BE7FD137C80D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{67FF2CF4-4B51-4B70-A29A-89597A32BFEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C0133A2C-AEE2-407B-9629-A6277211B1DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tests", ".tests", "{0A56DA3A-ECAA-4AD1-AF93-644A6E00504C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ApiDocs.Terminal", "src\ApiDocs.Terminal\ApiDocs.Terminal.fsproj", "{7942ECFB-D7B5-4A67-8379-9DB0B727D89E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7942ECFB-D7B5-4A67-8379-9DB0B727D89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7942ECFB-D7B5-4A67-8379-9DB0B727D89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7942ECFB-D7B5-4A67-8379-9DB0B727D89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7942ECFB-D7B5-4A67-8379-9DB0B727D89E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
